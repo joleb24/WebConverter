@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url("../img/pozadina.jpg");
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.mb-10{
+    margin-bottom: 20px;
+}
+
+.cistac{
+    clear:both;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+.okvir{
+    width: 1300px;
+    height: auto;
+    background-color: antiquewhite;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.naslov{
+    width: 800px;
+    height: auto;
+    margin: 0px auto;
+}
+
+.naslov img{
+    width: 700px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.naslov h1, h2{
+    margin-bottom: 10px;
+}
+
+#sadrzaj{
+
+    margin-top: 50px;
+    padding: 0px 15px;
+}
+
+#za_cirilicu, #za_latinicu{
+    resize: none;
+}
+
+.drzac_dugme{
+    width: 300px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+#btn1, #btn2, #btn3{
+    background-color: rgb(22, 5, 5);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#btn1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#btn2:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#btn3:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(24, 20, 20);
+    padding: 15px 0px;
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: rgb(107, 76, 76);
+}
+
+.kvadrat{
+    width: 48%;
+    height: 350px;
+    color: white;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.kvadrat h2{
+    margin-bottom: 25px;
+}
+
+.l{
+    float: left;
+}
+
+.d{
+    float: right;
+}
+
+.levo{
+    float: left;
+    width: 48%;
+    height: auto;
+}
+
+.desno{
+    float: right;
+    width: 48%;
+    height: auto;
+}
+
+#potpis{
+    padding: 40px 0px;
+    background-color: rgb(22, 5, 5);
+    color: white;
+    text-align: center;
+}
+
+#potpis a{
+    text-decoration: none;
+    color: white;
+}
+
+#potpis a:hover{
+    text-decoration: underline;
+    color: rgb(107, 76, 76);
+}
+

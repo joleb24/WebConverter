@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Posada Prevodioc</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="Posada, Knjizevna, Avantura, Посада, Књижевна, Авантура, Naše, Pismo, Ћирилица, Латиница, Преводиоц, Конвертор, Prevodioc, Konvertor"/>
+    <meta name="description" content="Пребацивање текста из латинице у ћирилицу и обратно. Посада конвертор/преводиоц."/>
+    <link rel="shorcut icon" href="pp.ico"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+
+    <div class="okvir">
+        <div class="naslov">
+            <a href="#">
+                <img src="img/logo.jpg" alt="Logo posade"/>
+            </a>
+            <h1>ПОСАДА КОНВЕРТОР</h1>
+            <h2>Пребацивање текста из латинице у ћирилицу и обратно.</h2>
+        </div>
+        <div id="sadrzaj">
+            <p class="mb-10">Све што се укуца у горњем прозору за унос текста ће бити пребачено у ћирилицу и приказано у прозору испод. Све што се укуца у доњем прозору се може пребацити у латиницу и биће приказано у првом прозору за унос текста. </p>
+            <div class="drzac_dugme">
+                <input type="button" name="bnt1" id="btn1" value="Обриши текст у оба прозора"/>
+            </div>
+            <h3>Простор за унос латиничног текста</h3>
+            <textarea id="za_cirilicu" rows="25" cols="150"></textarea><br/>
+            <small>Број карактера: <span id="br_kar_lat">0</span></small> <br/>
+            <p id="greska1"></p><br/>
+            
+            <div class="drzac_dugme">
+                <input type="button" name="btn2" id="btn2" value="Пребаци у ћирилицу"/>
+            </div>
+            
+            <h3>Простор за унос ћириличног текста</h3>
+            <textarea id="za_latinicu" rows="25" cols="150"></textarea><br/>
+            <small>Број карактера: <span id="br_kar_cir">0</span></small> <br/>
+            <p id="greska2"></p><br/>
+
+            <div class="drzac_dugme mb-10">
+                <input type="button" name="btn3" id="btn3" value="Пребаци у латиницу"/>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="kvadrat l">
+                <h2>Информације:</h2>
+                <ul>
+                    <li>ISSN број: 2217-3277</li>
+                    <li>Први број је изашао 2007 у Београду</li>
+                    <li>Периодичност: Годишњи тробој</li>
+                    <li>Издавач: Књижевно удружење посада</li>
+                    <li>Контакт: posada.ka@gmail.com</li>
+                </ul>
+            </div>
+            <div class="kvadrat d">
+                <h2>Поглавља:</h2>
+                <div class="levo">
+                    <ul>
+                        <li>
+                            <a href="#">ПОЧЕТНА</a>
+                        </li>
+                        <li>
+                            <a href="#">ПРИЧЕ</a>
+                        </li>
+                        <li>
+                            <a href="#">ПОЕЗИЈА</a>
+                        </li>
+                        <li>
+                            <a href="#">ИЗБОР</a>
+                        </li>
+                        <li>
+                            <a href="#">ЕСЕЈИ</a>
+                        </li>
+                        <li>
+                            <a href="#">ПОСАДА ДЕЦА</a>
+                        </li>
+                        <li>
+                            <a href="#">ПРЕУЗМИ ИЛИ ЧИТАЈ</a>
+                        </li>
+                        <li>
+                            <a href="#">ПО-БиблиотеКА </a>
+                        </li>
+                        <li>
+                            <a href="#">Одиграј Потез</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="desno">
+                    <ul>
+                        <li>
+                            <a href="#">ДАРОВИ</a>
+                        </li>
+                        <li>
+                            <a href="#">ПРЕВОДИ</a>
+                        </li>
+                        <li>
+                            <a href="#">ЛИНКОВИ</a>
+                        </li>
+                        <li>
+                            <a href="#">НЕОРА</a>
+                        </li>
+                        <li>
+                            <a href="#">ПОСАДА SF</a>
+                        </li>
+                        <li>
+                            <a href="#">ПОСАДА АРХИВА</a>
+                        </li>
+                        <li>
+                            <a href="#">ПУТОПИСИ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cistac"></div>
+            </div>
+            <div class="cistac"></div>
+        </div>
+        <div id="potpis">
+            <p>Copyright &copy; 2007-<span id="godina"></span> <a href="#">Посада Веб</a></p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/posada_prev.js"></script>
+</body>
+</html>
